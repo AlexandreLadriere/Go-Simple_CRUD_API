@@ -30,9 +30,6 @@ go build
 ## Structure
 
 ```
-├── cmd
-│    └── main
-│         └── main.go
 ├── pkg
 │    ├── config
 │    ├── controllers 
@@ -43,7 +40,7 @@ go build
 │    │    └── hello-routes.go
 │    └── utils 
 │         └── utils.go
-└── tests
+└── main.go
 ```
 
 ## API

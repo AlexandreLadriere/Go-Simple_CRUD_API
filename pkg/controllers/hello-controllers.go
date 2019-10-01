@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"../models"
-	"../utils"
 	"encoding/json"
+	"github.com/AlexandreLadriere/Go-Simple_CRUD_API/pkg/models"
+	"github.com/AlexandreLadriere/Go-Simple_CRUD_API/pkg/utils"
 	"net/http"
 )
 

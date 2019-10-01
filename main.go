@@ -1,7 +1,7 @@
-package main
+package BigBlue_InternChallenge
 
 import (
-	"../../pkg/routes"
+	"github.com/AlexandreLadriere/Go-Simple_CRUD_API/pkg/routes"
 	"log"
 	"net/http"
 )

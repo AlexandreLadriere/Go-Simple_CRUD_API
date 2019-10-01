@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"../controllers"
+	"github.com/AlexandreLadriere/Go-Simple_CRUD_API/pkg/controllers"
 	"github.com/gorilla/mux"
 )
 
