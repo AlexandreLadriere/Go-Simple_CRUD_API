@@ -10,10 +10,6 @@ var hellos []Hello
 func init() {
 	hellos = []Hello{
 		Hello {
-			Msg: "Hallo",
-			Lang: "de",
-		},
-		Hello {
 			Msg: "Hello",
 			Lang: "en",
 		},

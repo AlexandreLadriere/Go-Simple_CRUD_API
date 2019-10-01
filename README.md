@@ -36,7 +36,10 @@ go build
 │    ├── controllers 
 │    │    └── hello-controllers.go
 │    ├── models 
-│    │    └── hello.go
+│    │    ├── hello.go
+│    │    ├── hello_test.go
+│    │    ├── hello_cover.txt
+│    │    └── hello_cover.html
 │    ├── routes
 │    │    └── hello-routes.go
 │    └── utils 
