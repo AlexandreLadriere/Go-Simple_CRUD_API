@@ -27,7 +27,7 @@ go build
 # API Endpoint : http://127.0.0.1:10001
 ```
 
-## Project Structure
+## Structure
 
 ```
 ├── config

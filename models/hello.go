@@ -14,8 +14,12 @@ func init() {
 			Lang: "de",
 		},
 		Hello {
-			Msg: "Hola",
-			Lang: "es",
+			Msg: "Hello",
+			Lang: "en",
+		},
+		Hello {
+			Msg: "Bonjour",
+			Lang: "fr",
 		},
 	}
 }
