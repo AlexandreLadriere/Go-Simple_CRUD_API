@@ -1,4 +1,4 @@
-package BigBlue_InternChallenge
+package main
 
 import (
 	"github.com/AlexandreLadriere/Go-Simple_CRUD_API/pkg/routes"
