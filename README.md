@@ -13,17 +13,18 @@ go get -u github.com/gorilla/mux
 ## Installation & Run
 ```bash
 # Download this project
-go github.com/AlexandreLadriere/Go-Simple_CRUD_API
+go get github.com/AlexandreLadriere/Go-Simple_CRUD_API
 ```
 
 ```bash
 # Build
+cd go/src/github.com/AlexandreLadriere/Go-Simple_CRUD_API
 go build
 ```
 
 ```bash
 # Run
-./main
+./Go-Simple_CRUD_API
 # API Endpoint : http://127.0.0.1:10001
 ```
 
