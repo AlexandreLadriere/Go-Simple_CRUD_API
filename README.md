@@ -61,7 +61,7 @@ With a ```lang=value``` query (e.g. ```/hello?lang=fr```)
 
 * `DELETE` : Delete the ```Hello``` in the specified ```value``` language.
 
-With a json body (e.g. ```/hello {"language": "language code", "hello": "language hello"}```)
+With a json body (e.g. ```/hello {"language": "de", "hello": "Hallo"}```)
 
 * `POST` : Create a new ```Hello``` with the corresponding language and the corresponding message if it does not already exist
 
