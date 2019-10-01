@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./routes"
+	"../../pkg/routes"
 	"log"
 	"net/http"
 )

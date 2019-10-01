@@ -30,17 +30,20 @@ go build
 ## Structure
 
 ```
-├── config
-├── controllers 
-│     └── hello-controllers.go
-├── models 
-│     └── hello.go
-├── routes
-│     └── hello-routes.go
-├── utils 
-│     └── utils.go
-├── tests
-└── main.go
+├── cmd
+│    └── main
+│         └── main.go
+├── pkg
+│    ├── config
+│    ├── controllers 
+│    │    └── hello-controllers.go
+│    ├── models 
+│    │    └── hello.go
+│    ├── routes
+│    │    └── hello-routes.go
+│    └── utils 
+│         └── utils.go
+└── tests
 ```
 
 ## API
