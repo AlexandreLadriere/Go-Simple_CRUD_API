@@ -1,6 +1,9 @@
 # Compiled Sources #
 ####################
-main
+# extension-less files
+*
+!/**/
+!*.*
 
 # Project Conf #
 ################
