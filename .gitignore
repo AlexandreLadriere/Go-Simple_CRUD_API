@@ -2,5 +2,10 @@
 ####################
 main
 
+# Project Conf #
+################
+.idea/
+
 # PDF #
+#######
 Intern_Challenge.pdf
