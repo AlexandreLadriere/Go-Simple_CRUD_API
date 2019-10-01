@@ -55,12 +55,14 @@ go build
 #### /hellos
 * `GET` : Get all ```Hello``` objects
 
-#### /hello?lang=value
+#### /hello
+With a ```lang=value``` query (e.g. ```/hello?lang=fr```)
 * `GET` : Get the ```Hello``` in the specified ```value``` language (e.g. http://127.0.0.1:10001/hello?lang=de) or an empty string if it does not exist
 
 * `DELETE` : Delete the ```Hello``` in the specified ```value``` language.
 
-#### /hello {"language": "language code", "hello": "language hello"}
+With a json body (e.g. ```/hello {"language": "language code", "hello": "language hello"}```)
+
 * `POST` : Create a new ```Hello``` with the corresponding language and the corresponding message if it does not already exist
 
 #### 
